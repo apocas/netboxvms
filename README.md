@@ -52,7 +52,7 @@ module.exports = Example;
 
 ## Usage
 * npm install
-* NETBOX_HOSTNAME=xxx NETBOX_TOKEN=xxx ONAPP_CLUSTER=1 ONAPP_TAG=onapp- ONAPP_HOSTNAME=xxx ONAPP_USERNAME=xxx ONAPP_PASSWORD=xxx node main.js
+* NETBOX_HOSTNAME=xxx NETBOX_TOKEN=xxx ONAPP_CLUSTER=1 ONAPP_TAG=onapp- ONAPP_HOSTNAME=xxx ONAPP_USERNAME=xxx ONAPP_PASSWORD=xxx node main.js onapp
 
 ### Env vars
 * `NETBOX_HOSTNAME` - Netbox URL
