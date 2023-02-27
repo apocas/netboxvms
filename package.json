@@ -1,0 +1,16 @@
+{
+  "name": "netboxvms",
+  "version": "1.0.0",
+  "description": "Export and sync VM metadata from multiple platforms to Netbox.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Dias <petermdias@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "ipaddr.js": "^2.0.1",
+    "vmmanager6": "^1.0.0"
+  }
+}
