@@ -11,6 +11,7 @@ Export and sync VM metadata from multiple platforms to Netbox.
 1. Create a new file in the `netboxvms/exporters` directory
 2. Create a new class that inherits from `Exporter`
 3. Implement the `getVMs` method. This method must return a list of `VM` objects. (check example.js)
+4. Netboxvms will automatically detect the new exporter and use it, no need to change anything else. It will automatically detect what needs to be added, updated or deleted.
 
 ### Example
 ```js
